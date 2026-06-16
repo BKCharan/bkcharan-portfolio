@@ -1,25 +1,25 @@
 function Internships() {
-  const internships = [
+  const Internships = [
     {
       title: "Embedded & Automotive Systems",
       company: "EchoBrains",
-      image: "/internships/embedded-automotive.jpg",
+      image: "/Internships/embedded-automotive.jpg",
     },
     {
       title: "Industrial Training Program",
       company: "InTrainz",
-      image: "/internships/industrial-training.jpg",
+      image: "/Internships/industrial-training.jpg",
     },
     {
       title: "Python Developer Intern",
       company: "Codec Technologies",
-      image: "/internships/python-developer-intern.jpg",
+      image: "/Internships/python-developer-intern.jpg",
     },
   ];
 
   return (
     <section
-      id="internships"
+      id="Internships"
       className="py-20 px-6 bg-slate-950 text-white"
     >
       <div className="max-w-6xl mx-auto">
@@ -29,7 +29,7 @@ function Internships() {
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {internships.map((item, index) => (
+          {Internships.map((item, index) => (
             <a
               key={index}
               href={item.image}
