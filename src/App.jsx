@@ -1,4 +1,4 @@
-import Internships from "./components/Internships";
+import Internships from "./components/internships";
 import profile from "./assets/profile.jpeg";
 
 import Navbar from "./components/Navbar";
@@ -107,7 +107,7 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
-        <Internships />
+        <internships />
         <Education />
         <Achievements />
         <Certifications />

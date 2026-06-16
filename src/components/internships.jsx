@@ -1,35 +1,35 @@
-function Internships() {
-  const Internships = [
+function internships() {
+  const internships = [
     {
       title: "Embedded & Automotive Systems",
       company: "EchoBrains",
-      image: "/Internships/embedded-automotive.jpg",
+      image: "/internships/embedded-automotive.jpg",
     },
     {
       title: "Industrial Training Program",
       company: "InTrainz",
-      image: "/Internships/industrial-training.jpg",
+      image: "/internships/industrial-training.jpg",
     },
     {
       title: "Python Developer Intern",
       company: "Codec Technologies",
-      image: "/Internships/python-developer-intern.jpg",
+      image: "/internships/python-developer-intern.jpg",
     },
   ];
 
   return (
     <section
-      id="Internships"
+      id="internships"
       className="py-20 px-6 bg-slate-950 text-white"
     >
       <div className="max-w-6xl mx-auto">
 
         <h2 className="text-4xl font-bold text-center text-cyan-400 mb-12">
-          Internship Certificates
+          internship Certificates
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {Internships.map((item, index) => (
+          {internships.map((item, index) => (
             <a
               key={index}
               href={item.image}
@@ -57,4 +57,4 @@ function Internships() {
   );
 }
 
-export default Internships;
+export default internships;
