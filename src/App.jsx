@@ -1,3 +1,4 @@
+import Internships from "./components/Internships";
 import profile from "./assets/profile.jpeg";
 
 import Navbar from "./components/Navbar";
@@ -106,6 +107,7 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
+        <Internships />
         <Education />
         <Achievements />
         <Certifications />
