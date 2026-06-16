@@ -1,4 +1,4 @@
-import profile from "./assets/Profile.jpeg";
+import profile from "./assets/profile.jpeg";
 
 import Navbar from "./components/Navbar";
 import About from "./components/About";
