@@ -3,17 +3,17 @@ function internships() {
     {
       title: "Embedded & Automotive Systems",
       company: "EchoBrains",
-      image: "/internships/embedded-automotive.jpg",
+      image: "/internships/embedded-automotive.pdf",
     },
     {
       title: "Industrial Training Program",
       company: "InTrainz",
-      image: "/internships/industrial-training.jpg",
+      image: "/internships/industrial-training.pdf",
     },
     {
       title: "Python Developer Intern",
       company: "Codec Technologies",
-      image: "/internships/python-developer-intern.jpg",
+      image: "/internships/python-developer-intern.pdf",
     },
   ];
 

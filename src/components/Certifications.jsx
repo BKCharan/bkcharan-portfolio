@@ -4,31 +4,31 @@ function Certifications() {
       title: "Applied Industrial IoT",
       issuer: "L&T EduTech",
       year: "2024",
-      image: "/certificates/applied-industrial-iot.jpg",
+      image: "/certificates/applied-industrial-iot.pdf",
     },
     {
       title: "Artificial Intelligence & Edge Computing",
       issuer: "L&T EduTech",
       year: "2024",
-      image: "/certificates/ai-edge-computing.jpg",
+      image: "/certificates/ai-edge-computing.pdf",
     },
     {
       title: "Cyber Physical Systems for Industrial Applications",
       issuer: "L&T EduTech",
       year: "2024",
-      image: "/certificates/cyber-physical-systems.jpg",
+      image: "/certificates/cyber-physical-systems.pdf",
     },
     {
       title: "5G Technology for Smarter & Secure Connectivity",
       issuer: "L&T EduTech",
       year: "2025",
-      image: "/certificates/5g-technology.jpg",
+      image: "/certificates/5g-technology.pdf",
     },
     {
       title: "Python Project for Beginners",
       issuer: "Great Learning",
       year: "2024",
-      image: "/certificates/python-project.jpg",
+      image: "/certificates/python-project.pdf",
     },
   ];
 
