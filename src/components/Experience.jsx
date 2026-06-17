@@ -6,6 +6,8 @@ function Experience() {
       duration: "May 2024 - Jul 2024",
       description:
         "Developed responsive web applications, improved UI/UX, and collaborated with development teams to deliver modern web solutions.",
+
+        certificate: "/internships/web-development.pdf",
     },
 
     {
