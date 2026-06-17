@@ -1,7 +1,12 @@
 function Internships() {
   const internships = [
     {
-      title: "Embedded & Automotive Systems",
+      title: "Web Development Intern",
+      company: "Techplement Solutions Pvt. Ltd.",
+      certificate: "/internships/web-development.pdf",
+    },
+    {
+      title: "Embedded & Automotive Systems Intern",
       company: "EchoBrains",
       certificate: "/internships/embedded-automotive.pdf",
     },
@@ -27,14 +32,11 @@ function Internships() {
           Internship Certificates
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {internships.map((item, index) => (
-            <a
+            <div
               key={index}
-              href={item.certificate}
-              target="_blank"
-              rel="noreferrer"
-              className="bg-slate-800 p-6 rounded-2xl hover:scale-105 hover:bg-slate-700 transition duration-300"
+              className="bg-slate-800 p-6 rounded-2xl shadow-lg hover:shadow-cyan-500/20 hover:scale-105 transition"
             >
               <h3 className="text-xl font-bold text-cyan-400">
                 {item.title}
@@ -44,10 +46,15 @@ function Internships() {
                 {item.company}
               </p>
 
-              <div className="mt-4 text-cyan-400 font-semibold">
-                View Certificate →
-              </div>
-            </a>
+              <a
+                href={item.certificate}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-5 bg-cyan-500 hover:bg-cyan-600 text-black px-4 py-2 rounded-lg font-semibold transition"
+              >
+                View Certificate
+              </a>
+            </div>
           ))}
         </div>
       </div>
