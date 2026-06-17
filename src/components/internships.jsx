@@ -1,19 +1,19 @@
-function internships() {
+function Internships() {
   const internships = [
     {
       title: "Embedded & Automotive Systems",
       company: "EchoBrains",
-      image: "/internships/embedded-automotive.pdf",
+      certificate: "/internships/embedded-automotive.pdf",
     },
     {
       title: "Industrial Training Program",
       company: "InTrainz",
-      image: "/internships/industrial-training.pdf",
+      certificate: "/internships/industrial-training.pdf",
     },
     {
       title: "Python Developer Intern",
       company: "Codec Technologies",
-      image: "/internships/python-developer-intern.pdf",
+      certificate: "/internships/python-developer-intern.pdf",
     },
   ];
 
@@ -23,19 +23,18 @@ function internships() {
       className="py-20 px-6 bg-slate-950 text-white"
     >
       <div className="max-w-6xl mx-auto">
-
         <h2 className="text-4xl font-bold text-center text-cyan-400 mb-12">
-          internship Certificates
+          Internship Certificates
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {internships.map((item, index) => (
             <a
               key={index}
-              href={item.image}
+              href={item.certificate}
               target="_blank"
               rel="noreferrer"
-              className="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition"
+              className="bg-slate-800 p-6 rounded-2xl hover:scale-105 hover:bg-slate-700 transition duration-300"
             >
               <h3 className="text-xl font-bold text-cyan-400">
                 {item.title}
@@ -51,10 +50,9 @@ function internships() {
             </a>
           ))}
         </div>
-
       </div>
     </section>
   );
 }
 
-export default internships;
+export default Internships;
