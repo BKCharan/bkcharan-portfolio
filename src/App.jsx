@@ -107,7 +107,7 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
-        <internships />
+        <Internships />
         <Education />
         <Achievements />
         <Certifications />
