@@ -1,11 +1,11 @@
 function Certifications() {
   const certifications = [
     {
-      title: "Applied Industrial IoT",
-      issuer: "L&T EduTech",
-      year: "2024",
-      image: "/certificates/applied-industrial-iot.pdf",
-    },
+  title: "Applied Industrial IoT",
+  issuer: "L&T EduTech",
+  year: "2024",
+  image: "/certificates/applied-industrial-iot.pdf",
+},
     {
       title: "Artificial Intelligence & Edge Computing",
       issuer: "L&T EduTech",
